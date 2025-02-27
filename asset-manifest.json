@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Dahiya-consulting/static/css/main.bbd9712c.css",
+    "main.js": "/Dahiya-consulting/static/js/main.d6d7224d.js",
+    "static/js/453.4486a938.chunk.js": "/Dahiya-consulting/static/js/453.4486a938.chunk.js",
+    "static/media/video.mp4": "/Dahiya-consulting/static/media/video.de815fb164b4dc91939a.mp4",
+    "static/media/stage.JPG": "/Dahiya-consulting/static/media/stage.fb09ec3793abe7cc5020.JPG",
+    "static/media/globebg.png": "/Dahiya-consulting/static/media/globebg.6a48aae20e49d7aa2f73.png",
+    "static/media/book.jpeg": "/Dahiya-consulting/static/media/book.015201206da823c2fc8b.jpeg",
+    "static/media/Sachin dc.png": "/Dahiya-consulting/static/media/Sachin dc.552ba80c2d7e5dc5a6d5.png",
+    "static/media/mba.png": "/Dahiya-consulting/static/media/mba.ac8ff7670c7ca80b5321.png",
+    "static/media/slick.svg": "/Dahiya-consulting/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Dahiya-consulting/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Dahiya-consulting/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Dahiya-consulting/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Dahiya-consulting/index.html",
+    "main.bbd9712c.css.map": "/Dahiya-consulting/static/css/main.bbd9712c.css.map",
+    "main.d6d7224d.js.map": "/Dahiya-consulting/static/js/main.d6d7224d.js.map",
+    "453.4486a938.chunk.js.map": "/Dahiya-consulting/static/js/453.4486a938.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbd9712c.css",
+    "static/js/main.d6d7224d.js"
+  ]
+}
