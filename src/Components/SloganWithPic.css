@@ -1,0 +1,152 @@
+
+.slogan-with-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 65vh;
+  background-color: var(--pri);
+ 
+}
+
+.para {
+  height: 45vh;
+  width: 30vw;
+  padding: 2rem;
+  
+}
+
+.para h1 {
+  color: white;
+  font-size: 6rem;
+  font-weight: 400;
+  font-family: var(--ff);
+  padding-bottom: 3rem;
+}
+
+.para li {
+  font-size: 2rem;
+  font-weight: 350;
+  color: white;
+  list-style-type: none;
+  font-family: var(--ff);
+  padding-bottom: 4rem;
+}
+
+.para a {
+  padding: .6rem 4rem;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 2rem;
+  
+}
+
+.image {
+  margin-top: 13rem;
+}
+
+.img {
+  height: 47vh;
+  width: 20vw;
+  border-radius: 18rem 18rem 0rem 0rem;
+  background-color: white;
+}
+
+/* 
+@media only screen and (max-width: 980px) {
+  .img {
+    height: 18vh;
+    width: 35vw;
+    border-radius: 25rem 25rem 0rem 0rem;
+    background-color: white;
+  }
+
+  .image {
+    margin-top: 24rem;
+    margin-right: 2rem;
+  }
+
+  .para {
+    height: 25vh;
+    padding: 2rem;
+    margin: 0rem 2rem;
+  }
+
+  .para h1 {
+    font-size: 4.5rem;
+    font-weight: 400;
+  }
+
+  .para li {
+    padding-top: 0.8rem;
+    font-size: 1.9rem;
+    line-height: 1.25;
+  }
+
+  .slogan-with-image {
+    width: 100vw;
+    height: 30vh;
+  }
+} */
+
+@media only screen and (min-width:601px) and (max-width:768px){}
+
+
+@media only screen and (max-width:600px){
+
+
+  .slogan-with-image {
+    display: grid;
+    width: 100vw;
+    height: 60.3vh;
+    gap: 0rem;
+  }
+
+  .para {
+    height: 30vh;
+    width: 80vw;
+    padding: 0rem;
+    margin: 2rem;
+  }
+
+  .para h1 {
+    font-size: 3rem;
+  }
+  
+  .para li {
+    padding-top: 0rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .para a {
+    padding: .5rem 1.4rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 2rem;
+    
+  }
+  
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    margin-right: 0rem;
+  
+  }
+  
+  .img {
+    height: 25vh;
+    width: 50vw;
+    border-radius: 25rem 25rem 0rem 0rem;
+    background-color: white;
+  }
+  
+}

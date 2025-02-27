@@ -1,0 +1,103 @@
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 32vw;
+    height: 35vh;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.1);
+    margin: 4rem 2rem;
+    
+  }
+  
+  .card-content {
+background-color: white ;
+color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .text-section {
+    text-align: center;
+    flex: 1;
+    font-family: var(--ff);
+  }
+
+  .text-section h2{
+    font-size: 3rem;
+  }
+
+  .text-section p{
+    font-size: 2rem;
+  }
+
+  .text-section a{
+    font-size: 2.3rem;
+  }
+  
+  .image-section {
+    background-color:var(--pri);
+    height: 35vh;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-section img {
+    width: 17vw;
+    height: 35vh;
+  }
+  
+  .card-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--pri);
+    text-decoration: none;
+  }
+  
+  .card-link:hover {
+    border: none;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width:600px){
+
+    .card {
+      width: 80vw;
+      height: 60vh;
+    margin: 0rem;
+
+    }
+
+
+    .card-content {
+display: grid;
+    }
+
+    .image-section {
+      height: 27vh;
+    }
+    
+    .image-section img {
+      width: 80vw;
+      height: 27vh;
+    }
+
+  
+    .text-section h2{
+      padding: 1rem;
+      padding-top: 3rem;
+      font-size: 3.5rem;
+    }
+  
+    .text-section p{
+      padding: 1rem;
+      font-size: 2rem;
+    }
+  
+    .text-section a{
+      font-size: 2.8rem;
+    }
+
+  }

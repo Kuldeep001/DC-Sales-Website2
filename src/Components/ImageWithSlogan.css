@@ -1,0 +1,55 @@
+
+.container {
+  height: 68rem;
+  width: 100vw;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.mission {
+  position: absolute;
+  margin: 8rem 8rem 0rem 8rem;
+  color: rgb(255, 255, 255);
+  font-size: 4.5rem;
+  font-weight: 500;
+  z-index: 1;
+  font-family: var(--ff);
+}
+
+
+/* @media only screen and (max-width:980px) {
+} */
+
+/* @media only screen and (min-width:601px) and (max-width:768px){} */
+
+@media only screen and (max-width:600px){
+
+
+  .container {
+    height: 50vh;
+  }
+
+  .mission {
+    margin: 3rem 4rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+
+}
+
+

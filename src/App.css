@@ -1,0 +1,50 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+:root {
+  --pri: #0498f8;
+  --ff: "Roboto Condensed", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 60%;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  /* position: relative; */
+}
+
+
+.card1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  /* padding: 4rem; */
+}
+
+
+.apprev{
+  display: flex;
+  justify-content: center;
+}
+
+.Ecards{
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}

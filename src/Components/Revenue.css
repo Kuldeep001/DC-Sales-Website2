@@ -1,0 +1,78 @@
+.revenue {
+  margin-top: 5rem;
+  padding: 2rem;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  font-family: var(--ff);
+  font-size: 2rem;
+  background-color: var(--pri);
+  color: white;
+}
+
+.subcon {
+  width: 22vw;
+background-color: rgb(255, 255, 255);
+  margin-bottom: 2rem;
+  padding: 3rem;
+  font-size: 3rem;
+}
+
+.subcon img {
+  border-radius: 1rem;
+  width: 16vw;
+  height: 29vh;
+  border: 2px solid black;
+
+}
+
+.subcon h2 {
+  color: black;
+  font-size: 2.5rem;
+  }
+  
+  .subcon p {
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding: 1rem 2.5rem;
+
+    }
+    
+.subcon a {
+  color: var(--pri);
+  text-decoration: underline;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.subrev {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  gap: 3rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  
+}
+
+
+@media only screen and (max-width:600px){
+  .revenue {
+    padding: 1.5rem;
+    font-size: 1.7rem;    
+  }
+
+  .subcon {
+    border-radius: 1rem;
+    width: 85vw;
+    font-size: 3rem;
+    margin-bottom: 0rem;
+  }
+  
+  .subcon img {
+    width: 65vw;
+    height: 25vh;
+  }
+
+}

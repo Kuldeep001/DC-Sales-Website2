@@ -1,0 +1,150 @@
+.nav {
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding-right: 7rem;
+}
+
+.nav h1 {
+  padding: 1.5rem;
+  margin-left: 3rem;
+  border: 1px solid #ffffff;
+  border-radius: 3rem;
+  box-shadow: 5px 5px 6px rgba(111, 111, 111, 0.5);
+  font-size: 4rem;
+  font-weight: 500;
+  color: var(--pri);
+}
+
+.nav a {
+  color: var(--pri);
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+  font-family: var(--ff);
+}
+
+.nav i {
+  display: none;
+}
+
+.nav a:hover {
+  font-size: 2.8rem;
+  color: #000000;
+  border: none;
+}
+
+/* @media only screen and (max-width:980px){
+
+  .nav h1 {
+    font-size: 7rem;
+  }
+
+  .nav a {
+    display: none;
+  }
+
+  .nav i {
+    display: block;
+    font-size: 10vw;
+    font-weight: 900;
+    color: var(--pri);
+    cursor: pointer;
+  }
+
+  .menu {
+    z-index: 3;
+    width: 35vw;
+    height: 35vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    top: 16rem;
+    right: 0rem;
+    padding: 2rem 0rem 0rem 2rem;
+  }
+
+  .menu li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 2.5vh;
+    cursor: pointer;
+  font-family: var(--ff);
+
+  }
+
+  .menu li {
+    list-style-type: none;
+    padding: 1rem;
+  }
+
+  .menu li a:hover {
+    font-size: 2.8vh;
+    color: var(--pri);
+    background-color: #000000;
+  }
+} */
+
+/* @media only screen and (min-width:601px) and (max-width:768px){}
+
+@media only screen and (min-width:769px){} */
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    width: 100vw;
+    height: 12vh;
+  }
+
+  .nav h1 {
+    padding: 1.2rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+  }
+
+
+  .nav a {
+    display: none;
+  }
+
+  .nav i {
+    font-size: 11vw;
+    display: block;
+    font-weight: 900;
+    color: var(--pri);
+    margin-top: 0.8rem;
+    margin-left: 0rem;
+  }
+
+  .menu {
+    z-index: 2;
+    height: 35vh;
+    width: 40vw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    margin-top: 1.9rem;
+    right: 0rem;
+    padding: 2rem 0rem 0rem 2rem;
+  }
+  .menu li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-family: var(--ff);
+  }
+
+  .menu li {
+    list-style-type: none;
+    padding: 1rem;
+  }
+}
