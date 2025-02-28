@@ -30,7 +30,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-150px * 18)); /* Adjust based on the number of logos */
+    transform: translateX(calc(-150px * 20)); /* Adjust based on the number of logos */
   }
 }
 
