@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DC-Sales-Website2/static/css/main.efdf68c8.css",
-    "main.js": "/DC-Sales-Website2/static/js/main.52f796f1.js",
+    "main.css": "/DC-Sales-Website2/static/css/main.c5482bd3.css",
+    "main.js": "/DC-Sales-Website2/static/js/main.fbc845e5.js",
     "static/js/453.62a54d1f.chunk.js": "/DC-Sales-Website2/static/js/453.62a54d1f.chunk.js",
     "static/media/video.mp4": "/DC-Sales-Website2/static/media/video.de815fb164b4dc91939a.mp4",
     "static/media/stage.JPG": "/DC-Sales-Website2/static/media/stage.fb09ec3793abe7cc5020.JPG",
@@ -14,12 +14,12 @@
     "static/media/slick.ttf": "/DC-Sales-Website2/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/DC-Sales-Website2/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/DC-Sales-Website2/index.html",
-    "main.efdf68c8.css.map": "/DC-Sales-Website2/static/css/main.efdf68c8.css.map",
-    "main.52f796f1.js.map": "/DC-Sales-Website2/static/js/main.52f796f1.js.map",
+    "main.c5482bd3.css.map": "/DC-Sales-Website2/static/css/main.c5482bd3.css.map",
+    "main.fbc845e5.js.map": "/DC-Sales-Website2/static/js/main.fbc845e5.js.map",
     "453.62a54d1f.chunk.js.map": "/DC-Sales-Website2/static/js/453.62a54d1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efdf68c8.css",
-    "static/js/main.52f796f1.js"
+    "static/css/main.c5482bd3.css",
+    "static/js/main.fbc845e5.js"
   ]
 }
