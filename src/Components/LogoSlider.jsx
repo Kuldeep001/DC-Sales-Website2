@@ -11,9 +11,14 @@ const logos = [
   "https://softwarehorsepower.com/wp-content/uploads/2022/02/AuthBridge-logo.jpg",
   "https://ileadtaxacademy.in/wp-content/uploads/2021/06/new00001-1024x198.jpg",
   "https://storage.googleapis.com/msgsndr/n8F9VcVM0hakTsyzkaC3/media/66a4d0cd161e9210b353b226.png",
-  "https://media.licdn.com/dms/image/D4D3DAQHDUQumbztRaw/image-scale_191_1128/0/1692983952816/netizen_media_cover?e=2147483647&v=beta&t=Y7qkxwWKsQCNYbLTO4Fp8J_Ed9cHVa6dwOCf4lZCCuk",
+  "https://s3-us-west-2.amazonaws.com/issuewireassets/primg/153736/elefant-22147408000.png",
 "https://cfw43.rabbitloader.xyz/eyJjIjp0cnVlLCJoIjoibWFzdGVybXlsaWZlZWR1LmNvbSIsInYiOjMzMzY5NjkzNzksImkiOiI1NTM1Y2JhYi0wZjk1LTRlY2EtZTNmOC1hODdiNjNhOTVmMDAifQ/wp-content/uploads/2022/08/logo-14.png",
-"https://careermatrix.in/wp-content/uploads/2024/03/cropped-301677264_472949398183228_1970368898841118067_n.jpg",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lO4GA4_UDh3hxhW_TpO2oLwPEEj6fzgCrA&s",
+"https://media.licdn.com/dms/image/v2/D4D16AQGcZ6D5V1ZSFQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1720866467561?e=2147483647&v=beta&t=sNwEytcA3bMy1j-EiJz8jH6q6gu0BLWFPfeWj0uAteI",
+"https://www.makeintern.com/admin/uploaded_files/employer_company_logo/9649403913a50fb44156c6d57dc8199157c932ca3.png",
+"https://media.licdn.com/dms/image/v2/D560BAQHH_iFQaLFcsg/company-logo_200_200/company-logo_200_200/0/1731057746092/indian_medical_counsellor_logo?e=2147483647&v=beta&t=Vk6G6apeefCfGJoJPy6JlY0WG13QMeaShJwGCVgf5KM",
+"https://storage.googleapis.com/msgsndr/n8F9VcVM0hakTsyzkaC3/media/678f7c24141a59fec2b61c30.png",
+"https://storage.googleapis.com/msgsndr/n8F9VcVM0hakTsyzkaC3/media/67adb662a0bb9ae08b36a65f.png",
 ];
 
 const LogoSlider = () => {
